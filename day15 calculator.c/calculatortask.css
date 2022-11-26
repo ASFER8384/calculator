@@ -1,0 +1,48 @@
+#container{
+    width:20rem;
+    height: 25rem;
+    position: absolute;
+    left: 40%;
+    top: 15%;
+    background-color:indianred;
+    border-radius: 20px;
+    padding: 10px;
+}
+/* @media(max-width:200px){
+}
+     */
+
+#displaybox{
+    width: 95%;
+    height: 2.5rem;
+    text-align: end;
+    caret-color: red;
+    font-size: 25px;
+    margin-left: 5px;
+    border-radius: 10px;
+    border-radius: none;
+    outline: none;
+
+}
+button{
+    width: 100%;
+    padding: 15px;
+    border-radius: 25px;
+    background-color: magenta;
+    color: white;
+    border: none;
+    z-index: -1;
+    box-shadow: 0px 2px black;
+    opacity: .8;
+}
+.clear{
+    border-color: red;
+    color: red;
+    background-color: yellow;
+
+}
+.equal{
+    border-color: red;
+    color: red;
+    background-color: yellow;
+}
